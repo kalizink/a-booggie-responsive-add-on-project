@@ -5,30 +5,49 @@
 a {
 	text-decoration: none;
 }
-h1 {
+body {
+	background: black;
+}
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+		url("/images/boogie2.png");
+	max-width: 1200px;
+	margin: 0 auto;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 60px 0;
+}
+header h1 {
 	font-family: var(--playfair);
 	font-size: 45px;
 	font-weight: 700;
 	line-height: 171px;
 	letter-spacing: 0em;
 	text-align: center;
+	color: white;
 }
-h2 {
+header h2 {
 	font-family: var(--roboto);
 	font-size: 24px;
 	font-weight: 900;
 	line-height: 28px;
 	letter-spacing: 5px;
 	text-align: center;
+	color: white;
 }
 
-p {
+header p {
 	font-family: var(--roboto);
 	font-size: 40px;
 	font-weight: 400;
 	line-height: 47px;
-	letter-spacing: 0em;
 	text-align: center;
+	color: white;
+}
+footer {
+	color: white;
 }
 .button {
 	background: #885df1;
@@ -39,4 +58,26 @@ p {
 	max-width: 146px;
 	margin: 0 auto;
 	display: block;
+}
+.container {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+@media (max-width: 900px) {
+	header {
+		padding: 60px;
+	}
+	header h1 {
+		font-size: 25px;
+	}
+	header h2 {
+		font-size: 20px;
+	}
+	header p{
+		font-size: 20px;
+	}
+	.button{
+		padding: 8px 0;
+		font
+	}
 }
