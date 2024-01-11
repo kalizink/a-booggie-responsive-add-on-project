@@ -37,7 +37,6 @@ header h2 {
 	text-align: center;
 	color: white;
 }
-
 header p {
 	font-family: var(--roboto);
 	font-size: 40px;
@@ -57,6 +56,7 @@ footer {
 	text-align: center;
 	max-width: 146px;
 	margin: 0 auto;
+	margin-bottom: 10px;
 	display: block;
 }
 .container {
@@ -65,7 +65,7 @@ footer {
 }
 @media (max-width: 900px) {
 	header {
-		padding: 60px;
+		padding: 11px;
 	}
 	header h1 {
 		font-size: 25px;
@@ -73,11 +73,10 @@ footer {
 	header h2 {
 		font-size: 20px;
 	}
-	header p{
+	header p {
 		font-size: 20px;
 	}
-	.button{
+	.button {
 		padding: 8px 0;
-		font
 	}
 }
