@@ -21,6 +21,7 @@ body {
 }
 .img-responsive {
 	max-width: 100%;
+	max-height: 100%;
 	display: block;
 }
 .grid-2-col {
@@ -165,10 +166,10 @@ main {
 	font-family: var(--poppins);
 	font-size: 13px;
 	font-weight: 700;
-	text-align: left;
 	text-transform: uppercase;
-	display: inline;
+	display: inline-block;
 }
+
 .p-main {
 	font-family: var(--roboto);
 	font-size: 16px;
