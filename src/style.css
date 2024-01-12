@@ -6,7 +6,6 @@
 }
 
 body {
-	
 	background: black;
 	color: white;
 	margin: 0;
@@ -46,10 +45,10 @@ body {
 	background: white;
 	color: rgba(39, 32, 68, 1);
 	margin: 30px 0;
+	border-radius: 10px;
 }
 .card-header {
 	padding: 0;
-	background: black;
 }
 .card-body {
 	/* padding: 30px; */
@@ -63,7 +62,7 @@ body {
 	line-height: 1;
 	text-align: left;
 	margin: 0;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .card p {
 	font-family: var(--roboto);
