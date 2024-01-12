@@ -6,7 +6,7 @@
 }
 
 body {
-	/* **** FIXXX THIS */
+	
 	background: black;
 	color: white;
 	margin: 0;
@@ -123,7 +123,7 @@ header h1 {
 	font-weight: 700;
 	line-height: 1;
 	margin: 30px 0;
-	padding: 10px;
+	/* padding: 10px; */
 }
 header h2 {
 	font-family: var(--roboto);
