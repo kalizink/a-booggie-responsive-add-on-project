@@ -3,32 +3,95 @@
 	--playfair: "Playfair Display", serif;
 	--poppins: "Poppins", sans-serif;
 }
+
+body {
+	background: black;
+	color: white;
+}
 .container {
 	max-width: 1400px;
 	margin: 0 auto;
+}
+.text-center {
+	text-align: center;
 }
 .grid {
 	display: grid;
 	grid-gap: 64px;
 }
+.img-responsive {
+	max-width: 100%;
+	display: block;
+}
 .grid-2-col {
 	grid-template-columns: 1fr 1fr;
 }
 .grid-3-col {
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3-col-footer {
 	grid-template-columns: 1fr 2fr 2fr;
 }
-.img-responsive {
-	max-width: 100%;
+/* change below (margin) */
+.card {
+	background: white;
+	color: rgba(39, 32, 68, 1);
+	margin: 30px 0;
 }
-section {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 0;
+.card h4 {
+	font-family: var(--roboto);
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1;
+	text-align: left;
+	margin: 0;
 }
-body {
-	background: black;
+.card-body {
+	padding: 30px;
+}
+.card p {
+	font-family: var(--roboto);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	text-align: left;
+	margin: 0;
+}
+.card h5 {
+	font-family: var(--roboto);
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 1;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.card-footer {
+	padding: 0 30px 30px;
+}
+.button {
+	display: block;
 	color: white;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	padding: 16px;
+	background-color: rgba(136, 93, 241, 1);
+	text-decoration: none;
 }
+/* **** do i need it */
+/* .button a {
+	text-decoration: none;
+	color: white;
+} */
+section {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 100px;
+}
+
 header {
 	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
 		url("/images/boogie2.png");
@@ -81,7 +144,19 @@ header a {
 main {
 	padding: 0 20px;
 }
-
+.card {
+	background: white;
+	color: rgba(39, 32, 68, 1);
+}
+.card h4 {
+	font-family: var(--roboto);
+	font-size: 24px;
+	font-weight: 700;
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
 .h2-main {
 	font-family: var(--playfair);
 	line-height: 64px;
@@ -115,7 +190,26 @@ main {
 	display: block;
 	text-decoration: none;
 }
-
+section.secondary {
+	max-width: 100%;
+	margin: 0 auto;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url("/images/boogie6.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 200px 0;
+}
+.h3-black {
+	background: rgb(255, 255, 255, 0.2);
+	color: white;
+	font-family: var(--poppins);
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+	width: fit-content;
+}
 footer {
 	color: white;
 	background-image: linear-gradient(rgba(2, 4, 3, 0.7), rgba(2, 4, 3, 0.7)),
