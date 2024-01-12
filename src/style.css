@@ -146,6 +146,9 @@ header a {
 main {
 	padding: 0 20px;
 }
+section h3 {
+	font-size: 35px;
+}
 .card {
 	background: white;
 	color: rgba(39, 32, 68, 1);
@@ -213,15 +216,7 @@ section.secondary {
 .bottom-border {
 	border-bottom: 1px solid rgb(208 205 217);
 }
-.h3-black {
-	background: rgb(255, 255, 255, 0.2);
-	color: white;
-	font-family: var(--poppins);
-	font-size: 13px;
-	font-weight: 700;
-	text-transform: uppercase;
-	width: fit-content;
-}
+
 .embed {
 	width: 100%;
 	aspect-ratio: 1/1;
